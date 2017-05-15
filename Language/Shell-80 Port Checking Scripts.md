@@ -1,7 +1,7 @@
 Title: Shell端口检查脚本
 Date: 2016-05-04 10:49
 Modified: 2016-05-04 10:49
-Category: Programing language
+Category: language
 Tags: script
 Slug: 
 Author: allposs

@@ -1,7 +1,7 @@
 Title: python 三级菜单
 Date: 13:40 2016/9/21
 Modified: 13:40 2016/9/21
-Category: Programing language
+Category: language
 Tags: Python
 Slug: 
 Author: allposs

@@ -1,7 +1,7 @@
 Title: 配置visualvm监控weblogic
 Date: 2016/7/8 14:24:10   
 Modified: 2016/7/8 14:24:13   
-Category: Monitor
+Category: Servers
 Tags: Weblogic
 Slug: 
 Author: allposs

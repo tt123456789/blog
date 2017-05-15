@@ -1,7 +1,7 @@
 Title: Shell脚本 返回参数
 Date: 2016-05-04 11:20:57 
 Modified: 2016-05-04 11:20:57 
-Category: Programing language
+Category: language
 Tags: Script
 Slug: 
 Author: allposs

@@ -1,7 +1,7 @@
 Title: Shell的tomcat日志清除脚本
 Date: 11:07 2016/10/21
 Modified: 11:06 2016/10/21
-Category: Programing language
+Category: language
 Tags: script
 Slug: 
 Author: allposs
