@@ -1,7 +1,7 @@
 Title: python运算符
 Date: 21:11 2017/2/26
 Modified: 21:11 2017/2/26
-Category: Python
+Category: Programing language
 Tags: Python
 Slug: 
 Author: allposs

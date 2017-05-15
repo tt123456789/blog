@@ -1,7 +1,7 @@
 Title: Redis 批量删除key脚本
 Date: 10:56 2016/9/8
 Modified: 10:56 2016/9/8
-Category: Shell
+Category: Programing language
 Tags: Script
 Slug: 
 Author: allposs

@@ -1,7 +1,7 @@
 Title: python数字(Number)
 Date: 21:21 2017/2/26
 Modified: 21:21 2017/2/26
-Category: Python
+Category: Programing language
 Tags: Python
 Slug: 
 Author: allposs

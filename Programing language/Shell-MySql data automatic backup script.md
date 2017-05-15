@@ -1,7 +1,7 @@
 Title: MySql 数据自动备份脚本
 Date: 2016/5/10 21:25:39 
 Modified: 2016/5/28 11:41:58   
-Category: Shell
+Category: Programing language
 Tags: Script
 Slug: 
 Author: allposs

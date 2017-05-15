@@ -1,7 +1,7 @@
 Title: Zabbix agent安装部署
 Date: 2016/5/24 8:52:05 
 Modified: 2016/5/24 8:52:08 
-Category: Monitor
+Category: Servers
 Tags: zabbix
 Slug: 
 Author: allposs

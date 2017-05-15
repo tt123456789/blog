@@ -1,7 +1,7 @@
 Title: python字符串
 Date: 10:41 2017/3/1
 Modified: 10:41 2017/3/1
-Category: Python
+Category: Programing language
 Tags: Python
 Slug: 
 Author: allposs

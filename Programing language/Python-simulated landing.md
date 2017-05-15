@@ -1,7 +1,7 @@
 Title: python 模拟登陆
 Date: 15:43 2016/9/10
 Modified: 13:48 2016/9/21
-Category: Python
+Category: Programing language
 Tags: Python
 Slug: 
 Author: allposs

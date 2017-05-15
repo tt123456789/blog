@@ -1,7 +1,7 @@
 Title: zabbix 配置mutt+msmtp发送报警邮件
 Date: 2016/5/4 11:30:27 
 Modified: 2016/5/4 11:30:24 
-Category: Monitor
+Category: Servers
 Tags: zabbix
 Slug: 
 Author: allposs

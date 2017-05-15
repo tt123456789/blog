@@ -1,7 +1,7 @@
 Title: Shell脚本 条件测试
 Date: 2016/5/13 20:00:40  
 Modified: 2016/5/13 20:00:44  
-Category: Shell
+Category: Programing language
 Tags: Script
 Slug: 
 Author: allposs

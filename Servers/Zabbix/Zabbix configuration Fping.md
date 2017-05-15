@@ -1,7 +1,7 @@
 Title: Zabbix 配置Fping
 Date: 2016/5/4 11:30:27 
 Modified: 2016/5/4 11:30:24 
-Category: Monitor
+Category: Servers
 Tags: zabbix
 Slug: 
 Author: allposs

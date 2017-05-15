@@ -1,7 +1,7 @@
 Title: Shell脚本 NFS挂载自动备份
 Date: 2016/5/13 19:55:48 
 Modified: 2016/5/13 19:55:51 
-Category: Shell
+Category: Programing language
 Tags: script
 Slug: 
 Author: allposs
