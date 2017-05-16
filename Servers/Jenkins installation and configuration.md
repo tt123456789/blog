@@ -26,9 +26,9 @@ Author: allposs
 
 ###1. Yum源
 
-[root@7Node1 ~]# wget http://mirrors.hust.edu.cn/apache/tomcat/tomcat-8/v8.5.12/bin/apache-tomcat-8.5.12.tar.gz
-[root@7Node1 ~]# wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
-[root@7Node1 ~]# wget http://download.oracle.com/otn/java/jdk/8u112-b15/jdk-8u112-linux-x64.rpm
+	[root@7Node1 ~]# wget http://mirrors.hust.edu.cn/apache/tomcat/tomcat-8/v8.5.12/bin/apache-tomcat-8.5.12.tar.gz
+	[root@7Node1 ~]# wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+	[root@7Node1 ~]# wget http://download.oracle.com/otn/java/jdk/8u112-b15/jdk-8u112-linux-x64.rpm
 
 ###2. 源码包
 

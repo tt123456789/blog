@@ -86,8 +86,11 @@ Author: allposs
 ###2.2 汉化gitlab
 
 &#160; &#160; &#160; &#160;汉化之前要先确认当前汉化版本的 VERSION 是否相同。
+
 &#160; &#160; &#160; &#160;如果安装版本小于当前汉化版本，请先升级。如果安装版本大于当前汉化版本，请在本项目中提交新的 issue。
+
 &#160; &#160; &#160; &#160;如果版本相同，首先在本地 clone 仓库。
+
 	# GitLab.com 仓库
 	git clone https://gitlab.com/larryli/gitlab.git
 	# 或 Coder.net 镜像
