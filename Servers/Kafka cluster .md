@@ -1,11 +1,10 @@
-
-+ Title: kafka集群
-+ Date: 2017/5/22 17:07:59  
-+ Modified: 2017/5/22 17:07:59  
-+ Category: Servers
-+ Tags: kafka
-+ Slug: 
-+ Author: Temp
+Title: kafka集群
+Date: 2017/5/22 17:07:59  
+Modified: 2017/5/22 17:07:59  
+Category: Servers
+Tags: kafka
+Slug: 
+Author: Temp
 
 
 
