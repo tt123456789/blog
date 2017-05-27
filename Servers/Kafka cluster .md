@@ -1,5 +1,5 @@
 
-+ Title: kafka¼¯Èº
++ Title: kafkaé›†ç¾¤
 + Date: 2017/5/22 17:07:59  
 + Modified: 2017/5/22 17:07:59  
 + Category: Servers
@@ -9,36 +9,36 @@
 
 
 
-##¼ò½é
+##ç®€ä»‹
 
-&#160; &#160; &#160; &#160;KafkaÊÇÒ»ÖÖ¸ßÍÌÍÂÁ¿µÄ·Ö²¼Ê½·¢²¼¶©ÔÄÏûÏ¢ÏµÍ³£¬Ëü¿ÉÒÔ´¦ÀíÏû·ÑÕß¹æÄ£µÄÍøÕ¾ÖĞµÄËùÓĞ¶¯×÷Á÷Êı¾İ¡£ ÕâÖÖ¶¯×÷£¨ÍøÒ³ä¯ÀÀ£¬ËÑË÷ºÍÆäËûÓÃ»§µÄĞĞ¶¯£©ÊÇÔÚÏÖ´úÍøÂçÉÏµÄĞí¶àÉç»á¹¦ÄÜµÄÒ»¸ö¹Ø¼üÒòËØ¡£ ÕâĞ©Êı¾İÍ¨³£ÊÇÓÉÓÚÍÌÍÂÁ¿µÄÒªÇó¶øÍ¨¹ı´¦ÀíÈÕÖ¾ºÍÈÕÖ¾¾ÛºÏÀ´½â¾ö¡£ ¶ÔÓÚÏñHadoopµÄÒ»ÑùµÄÈÕÖ¾Êı¾İºÍÀëÏß·ÖÎöÏµÍ³£¬µ«ÓÖÒªÇóÊµÊ±´¦ÀíµÄÏŞÖÆ£¬ÕâÊÇÒ»¸ö¿ÉĞĞµÄ½â¾ö·½°¸¡£KafkaµÄÄ¿µÄÊÇÍ¨¹ıHadoopµÄ²¢ĞĞ¼ÓÔØ»úÖÆÀ´Í³Ò»ÏßÉÏºÍÀëÏßµÄÏûÏ¢´¦Àí£¬Ò²ÊÇÎªÁËÍ¨¹ı¼¯Èº»úÀ´Ìá¹©ÊµÊ±µÄÏû·Ñ¡£
-
-
+&#160; &#160; &#160; &#160;Kafkaæ˜¯ä¸€ç§é«˜ååé‡çš„åˆ†å¸ƒå¼å‘å¸ƒè®¢é˜…æ¶ˆæ¯ç³»ç»Ÿï¼Œå®ƒå¯ä»¥å¤„ç†æ¶ˆè´¹è€…è§„æ¨¡çš„ç½‘ç«™ä¸­çš„æ‰€æœ‰åŠ¨ä½œæµæ•°æ®ã€‚ è¿™ç§åŠ¨ä½œï¼ˆç½‘é¡µæµè§ˆï¼Œæœç´¢å’Œå…¶ä»–ç”¨æˆ·çš„è¡ŒåŠ¨ï¼‰æ˜¯åœ¨ç°ä»£ç½‘ç»œä¸Šçš„è®¸å¤šç¤¾ä¼šåŠŸèƒ½çš„ä¸€ä¸ªå…³é”®å› ç´ ã€‚ è¿™äº›æ•°æ®é€šå¸¸æ˜¯ç”±äºååé‡çš„è¦æ±‚è€Œé€šè¿‡å¤„ç†æ—¥å¿—å’Œæ—¥å¿—èšåˆæ¥è§£å†³ã€‚ å¯¹äºåƒHadoopçš„ä¸€æ ·çš„æ—¥å¿—æ•°æ®å’Œç¦»çº¿åˆ†æç³»ç»Ÿï¼Œä½†åˆè¦æ±‚å®æ—¶å¤„ç†çš„é™åˆ¶ï¼Œè¿™æ˜¯ä¸€ä¸ªå¯è¡Œçš„è§£å†³æ–¹æ¡ˆã€‚Kafkaçš„ç›®çš„æ˜¯é€šè¿‡Hadoopçš„å¹¶è¡ŒåŠ è½½æœºåˆ¶æ¥ç»Ÿä¸€çº¿ä¸Šå’Œç¦»çº¿çš„æ¶ˆæ¯å¤„ç†ï¼Œä¹Ÿæ˜¯ä¸ºäº†é€šè¿‡é›†ç¾¤æœºæ¥æä¾›å®æ—¶çš„æ¶ˆè´¹ã€‚
 
 
-##ËµÃ÷
 
-&#160; &#160; &#160; &#160;ÕâÌ×»·¾³³¢ÊÔÒÔ3zookeeper+kafkaµÄ·½Ê½²¿Êğ
+
+##è¯´æ˜
+
+&#160; &#160; &#160; &#160;è¿™å¥—ç¯å¢ƒå°è¯•ä»¥3zookeeper+kafkaçš„æ–¹å¼éƒ¨ç½²
 
 		
 
-##»·¾³
+##ç¯å¢ƒ
 
 
-+ Ö÷»úIP£º172.17.117.116-172.17.117.121
-+ Ö÷»úÃû£ºTLSKMQ01-TLSKMQ06
-+ Ö÷»úÅäÖÃ£º4CPU 8G 100G
-+ ÏµÍ³°æ±¾£ºRedhat6.5
++ ä¸»æœºIPï¼š172.17.117.116-172.17.117.121
++ ä¸»æœºåï¼šTLSKMQ01-TLSKMQ06
++ ä¸»æœºé…ç½®ï¼š4CPU 8G 100G
++ ç³»ç»Ÿç‰ˆæœ¬ï¼šRedhat6.5
 
-##Èí¼ş°ü
+##è½¯ä»¶åŒ…
 
 		# yum install wget vim net-tools sysstat telnet bash-com*
 		# yum localinstall jdk-7u67-linux-x64.rpm	
 		# zookeeper-3.4.10.tar.gz 
 		# kafka_2.12-0.10.2.0.tgz
-##°²×°
+##å®‰è£…
 
-###1.Ö÷»ú³õÊ¼ÅäÖÃ
+###1.ä¸»æœºåˆå§‹é…ç½®
 
 		# yum install wget vim net-tools sysstat telnet bash-com*
 		# vim /etc/hosts
@@ -52,9 +52,9 @@
 			172.17.117.121	 TLSKMQ06
 		# yum localinstall jdk-7u67-linux-x64.rpm
 		
-###2.°²×°zookeeper¼¯Èº
+###2.å®‰è£…zookeeperé›†ç¾¤
 
-   zookeeperÒªÔÚÖ÷»úTLSKMQ01-TLSKMQ06ÉÏ°²×°£¬ÏÂÃæÑİÊ¾Ò»Ì¨°²×°·½·¨£º
+   zookeeperè¦åœ¨ä¸»æœºTLSKMQ01-TLSKMQ06ä¸Šå®‰è£…ï¼Œä¸‹é¢æ¼”ç¤ºä¸€å°å®‰è£…æ–¹æ³•ï¼š
    
 	[root@TLSKMQ01 ~]# tar xf zookeeper-3.4.10.tar.gz 
 	[root@TLSKMQ01 ~]# cd zookeeper-3.4.10/
@@ -83,7 +83,7 @@
 	[root@TLSKMQ01 ~]$ /ane/zookeeper/bin/zkServer.sh start
 	
 		
-###3.°²×°kafka
+###3.å®‰è£…kafka
 
 	[root@TLSKMQ01 ~]# tar xf kafka_2.12-0.10.2.0.tgz
 	[root@TLSKMQ01 ~]# mv kafka_2.12-0.10.2.0 /ane/kafka
@@ -119,20 +119,20 @@
 		/ane/kafka/bin/kafka-server-start.sh /ane/kafka/config/server.properties &> /ane/kafka/logs/kafka.logs &
 		tail -500f /ane/kafka/logs/kafka.logs
 
-##ÓÅ»¯
+##ä¼˜åŒ–
 
-###1.zookeeperÓÅ»¯
+###1.zookeeperä¼˜åŒ–
 	
-	1.1. ¿ìÕÕÎÄ¼şºÍÊÂÎñÈÕÖ¾ÎÄ¼ş·Ö±ğ¹ÒÔÚ²»Í¬´ÅÅÌ¡£zoo.cfgÎÄ¼şÖĞ£¬dataDirÊÇ´æ·Å¿ìÕÕÊı¾İµÄ£¬dataLogDirÊÇ´æ·ÅÊÂÎñÈÕÖ¾µÄ¡£zookeeper¸üĞÂ²Ù×÷¹ı³Ì£ºÏÈĞ´ÊÂÎñÈÕÖ¾£¬ÔÙĞ´ÄÚ´æ£¬ÖÜÆÚĞÔÂäµ½´ÅÅÌ£¨Ë¢ĞÂÄÚ´æµ½¿ìÕÕÎÄ¼ş£©¡£ÊÂÎñÈÕÖ¾µÄ¶ÔĞ´ÇëÇóµÄĞÔÄÜÓ°ÏìºÜ´ó£¬±£Ö¤dataLogDirËùÔÚ´ÅÅÌĞÔÄÜÁ¼ºÃ¡¢Ã»ÓĞ¾ºÕùÕß
+	1.1. å¿«ç…§æ–‡ä»¶å’Œäº‹åŠ¡æ—¥å¿—æ–‡ä»¶åˆ†åˆ«æŒ‚åœ¨ä¸åŒç£ç›˜ã€‚zoo.cfgæ–‡ä»¶ä¸­ï¼ŒdataDiræ˜¯å­˜æ”¾å¿«ç…§æ•°æ®çš„ï¼ŒdataLogDiræ˜¯å­˜æ”¾äº‹åŠ¡æ—¥å¿—çš„ã€‚zookeeperæ›´æ–°æ“ä½œè¿‡ç¨‹ï¼šå…ˆå†™äº‹åŠ¡æ—¥å¿—ï¼Œå†å†™å†…å­˜ï¼Œå‘¨æœŸæ€§è½åˆ°ç£ç›˜ï¼ˆåˆ·æ–°å†…å­˜åˆ°å¿«ç…§æ–‡ä»¶ï¼‰ã€‚äº‹åŠ¡æ—¥å¿—çš„å¯¹å†™è¯·æ±‚çš„æ€§èƒ½å½±å“å¾ˆå¤§ï¼Œä¿è¯dataLogDiræ‰€åœ¨ç£ç›˜æ€§èƒ½è‰¯å¥½ã€æ²¡æœ‰ç«äº‰è€…
 	
-	1.2. Ä¬ÈÏjvmÃ»ÓĞÅäÖÃXmx¡¢XmsµÈĞÅÏ¢£¬¿ÉÒÔÔÚconfÄ¿Â¼ÏÂ´´½¨Java.envÎÄ¼ş£¨ÄÚ´æ¶Ñ¿Õ¼äÒ»¶¨ÒªĞ¡ÓÚ»úÆ÷ÄÚ´æ£¬±ÜÃâÊ¹ÓÃswap£©
+	1.2. é»˜è®¤jvmæ²¡æœ‰é…ç½®Xmxã€Xmsç­‰ä¿¡æ¯ï¼Œå¯ä»¥åœ¨confç›®å½•ä¸‹åˆ›å»ºJava.envæ–‡ä»¶ï¼ˆå†…å­˜å †ç©ºé—´ä¸€å®šè¦å°äºæœºå™¨å†…å­˜ï¼Œé¿å…ä½¿ç”¨swapï¼‰
 	
 		vim conf/java.env
 			JAVA_OPTS="-Dcom.sun.management.jmxremote.local.only=false -Djava.rmi.server.hostname=172.17.117.116 -Dcom.sun.management.jmxremote.port=10001 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false"
 			export JVMFLAGS="-Xms5120m -Xmx5120m $JVMFLAGS $JAVA_OPTS"
 	
-	1.3. °´Ìì³özookeeperÈÕÖ¾£¬±ÜÃâzookeeper.outÎÄ¼ş¹ı´ó¡£
-			zkEnv.shÎÄ¼şÈÕÖ¾Êä³ö·½Ê½´ÓCONSOLE¸ÄÎªROLLINGFILE£»
+	1.3. æŒ‰å¤©å‡ºzookeeperæ—¥å¿—ï¼Œé¿å…zookeeper.outæ–‡ä»¶è¿‡å¤§ã€‚
+			zkEnv.shæ–‡ä»¶æ—¥å¿—è¾“å‡ºæ–¹å¼ä»CONSOLEæ”¹ä¸ºROLLINGFILEï¼›
 			
 			# vim zkEnv.sh
 				if [ "x${ZOO_LOG_DIR}" = "x" ]
@@ -147,7 +147,7 @@
 					ZOO_LOG4J_PROP="INFO,ROLLINGFILE"
 				fi
 			
-			conf/log4j.propertiesÉèÖÃÎª°´ÌìÉú³ÉÎÄ¼şDailyRollingFileAppender
+			conf/log4j.propertiesè®¾ç½®ä¸ºæŒ‰å¤©ç”Ÿæˆæ–‡ä»¶DailyRollingFileAppender
 			
 			# vim conf/log4j.properties
 				#zookeeper.root.logger=INFO, CONSOLE
@@ -160,47 +160,47 @@
 				
 				# Max log file size of 10MB
 
-	1.4. zoo.cfgÎÄ¼şÖĞskipACL=yes£¬ºöÂÔACLÑéÖ¤£¬¿ÉÒÔ¼õÉÙÈ¨ÏŞÑéÖ¤µÄÏà¹Ø²Ù×÷£¬ÌáÉıÒ»µãĞÔÄÜ¡£
+	1.4. zoo.cfgæ–‡ä»¶ä¸­skipACL=yesï¼Œå¿½ç•¥ACLéªŒè¯ï¼Œå¯ä»¥å‡å°‘æƒé™éªŒè¯çš„ç›¸å…³æ“ä½œï¼Œæå‡ä¸€ç‚¹æ€§èƒ½ã€‚
 	
-	1.5. zoo.cfgÎÄ¼şÖĞforceSync=no£¬Õâ¸ö¶ÔĞ´ÇëÇóµÄĞÔÄÜÌáÉıºÜÓĞ°ïÖú£¬ÊÇÖ¸Ã¿´ÎĞ´ÇëÇóµÄÊı¾İ¶¼Òª´ÓpagecacheÖĞ¹Ì»¯µ½´ÅÅÌÉÏ£¬²ÅËãÊÇĞ´³É¹¦·µ»Ø¡£µ±Ğ´ÇëÇóÊıÁ¿µ½´ïÒ»¶¨³Ì¶ÈµÄÊ±ºò£¬ºóĞøĞ´ÇëÇó»áµÈ´ıÇ°ÃæĞ´ÇëÇóµÄforceSync²Ù×÷£¬Ôì³ÉÒ»¶¨ÑÓÊ±¡£Èç¹û×·ÇóµÍÑÓÊ±µÄĞ´ÇëÇó£¬ÅäÖÃforceSync=no£¬Êı¾İĞ´µ½pagecacheºó¾Í·µ»Ø¡£µ«ÊÇ»úÆ÷¶ÏµçµÄÊ±ºò£¬pagecacheÖĞµÄÊı¾İÓĞ¿ÉÄÜ¶ªÊ§¡£
-		Ä¬ÈÏÎªforceSync=yes£¬Îªyes¿ÉÒÔÉèÖÃfsync.warningthresholdms=50 Èç¹ûÊı¾İ¹Ì»¯µ½´ÅÅÌµÄ²Ù×÷fsync³¬¹ı50msµÄÊ±ºò£¬½«»áÔÚzookeeper.outÖĞÊä³öÒ»ÌõwarnÈÕÖ¾£¨forceSync=yesÓĞĞ§£©¡£
+	1.5. zoo.cfgæ–‡ä»¶ä¸­forceSync=noï¼Œè¿™ä¸ªå¯¹å†™è¯·æ±‚çš„æ€§èƒ½æå‡å¾ˆæœ‰å¸®åŠ©ï¼Œæ˜¯æŒ‡æ¯æ¬¡å†™è¯·æ±‚çš„æ•°æ®éƒ½è¦ä»pagecacheä¸­å›ºåŒ–åˆ°ç£ç›˜ä¸Šï¼Œæ‰ç®—æ˜¯å†™æˆåŠŸè¿”å›ã€‚å½“å†™è¯·æ±‚æ•°é‡åˆ°è¾¾ä¸€å®šç¨‹åº¦çš„æ—¶å€™ï¼Œåç»­å†™è¯·æ±‚ä¼šç­‰å¾…å‰é¢å†™è¯·æ±‚çš„forceSyncæ“ä½œï¼Œé€ æˆä¸€å®šå»¶æ—¶ã€‚å¦‚æœè¿½æ±‚ä½å»¶æ—¶çš„å†™è¯·æ±‚ï¼Œé…ç½®forceSync=noï¼Œæ•°æ®å†™åˆ°pagecacheåå°±è¿”å›ã€‚ä½†æ˜¯æœºå™¨æ–­ç”µçš„æ—¶å€™ï¼Œpagecacheä¸­çš„æ•°æ®æœ‰å¯èƒ½ä¸¢å¤±ã€‚
+		é»˜è®¤ä¸ºforceSync=yesï¼Œä¸ºyeså¯ä»¥è®¾ç½®fsync.warningthresholdms=50 å¦‚æœæ•°æ®å›ºåŒ–åˆ°ç£ç›˜çš„æ“ä½œfsyncè¶…è¿‡50msçš„æ—¶å€™ï¼Œå°†ä¼šåœ¨zookeeper.outä¸­è¾“å‡ºä¸€æ¡warnæ—¥å¿—ï¼ˆforceSync=yesæœ‰æ•ˆï¼‰ã€‚
 	
-	1.6. globalOutstandingLimit=100000 ¿Í»§¶ËÁ¬½Ó¹ı¶à£¬ÏŞÖÆ¿Í»§¶ËÇëÇó£¬±ÜÃâOOM
+	1.6. globalOutstandingLimit=100000 å®¢æˆ·ç«¯è¿æ¥è¿‡å¤šï¼Œé™åˆ¶å®¢æˆ·ç«¯è¯·æ±‚ï¼Œé¿å…OOM
 	
-	1.7. zoo.cfgÎÄ¼şÖĞpreAllocSize=64M ÈÕÖ¾ÎÄ¼şÔ¤·ÖÅä´óĞ¡; snapCount=100,000 ¶àÉÙ´ÎĞ´ÊÂÎñ£¬Éú³ÉÒ»¸ö¿ìÕÕÈç¹û¿ìÕÕÉú³ÉÆµ·±¿ÉÊÊµ±µ÷´ó¸Ã²ÎÊı¡£Ò»°ãzkµÄÓ¦ÓÃÌá³«¶Á´óÓÚĞ´£¬ĞÔÄÜ½ÏºÃ£¨10:1£©£¬´æ´¢ÔªÊı¾İÓÃÀ´Ğ­µ÷·Ö²¼Ê½Êı¾İ×îÖÕÒ»ÖÂ¡£Ğ´¹ıÓÚÆµ·±Ê¹ÓÃ»º´æ¸üºÃ
+	1.7. zoo.cfgæ–‡ä»¶ä¸­preAllocSize=64M æ—¥å¿—æ–‡ä»¶é¢„åˆ†é…å¤§å°; snapCount=100,000 å¤šå°‘æ¬¡å†™äº‹åŠ¡ï¼Œç”Ÿæˆä¸€ä¸ªå¿«ç…§å¦‚æœå¿«ç…§ç”Ÿæˆé¢‘ç¹å¯é€‚å½“è°ƒå¤§è¯¥å‚æ•°ã€‚ä¸€èˆ¬zkçš„åº”ç”¨æå€¡è¯»å¤§äºå†™ï¼Œæ€§èƒ½è¾ƒå¥½ï¼ˆ10:1ï¼‰ï¼Œå­˜å‚¨å…ƒæ•°æ®ç”¨æ¥åè°ƒåˆ†å¸ƒå¼æ•°æ®æœ€ç»ˆä¸€è‡´ã€‚å†™è¿‡äºé¢‘ç¹ä½¿ç”¨ç¼“å­˜æ›´å¥½
 	
-	1.8. ÈÕÖ¾ÎÄ¼ş×Ô¶¯Çå³ı£¨Èç¹û×·ÇóĞÔÄÜ£¬¿ÉÊÖ¶¯Çå³ı£©
+	1.8. æ—¥å¿—æ–‡ä»¶è‡ªåŠ¨æ¸…é™¤ï¼ˆå¦‚æœè¿½æ±‚æ€§èƒ½ï¼Œå¯æ‰‹åŠ¨æ¸…é™¤ï¼‰
 			autopurge.snapRetainCount=3 # The number of snapshots to retain in dataDir
 			autopurge.purgeInterval=1 # Purge task interval in hours Set to "0" to disable auto purge feature
 			
-###2.kafkaÓÅ»¯
+###2.kafkaä¼˜åŒ–
 	
-####2.1 JVM²ÎÊıÅäÖÃÓÅ»¯
+####2.1 JVMå‚æ•°é…ç½®ä¼˜åŒ–
 
-&#160; &#160; &#160; &#160;Èç¹ûÊ¹ÓÃµÄCMS GCËã·¨£¬½¨ÒéJVM Heap²»ÒªÌ«´ó£¬ÔÚ4GBÒÔÄÚ¾Í¿ÉÒÔ¡£JVMÌ«´ó£¬µ¼ÖÂMajor GC»òÕßFull GC²úÉúµÄ¡°stop the world¡±Ê±¼ä¹ı³¤£¬µ¼ÖÂbrokerºÍzkÖ®¼äµÄsession³¬Ê±£¬±ÈÈçÖØÏÖÑ¡¾Ùcontroller½ÚµãºÍÌáÉıfollow replicaÎªleader replica¡£
-&#160; &#160; &#160; &#160;JVMÒ²²»ÄÜ¹ıĞ¡£¬·ñÔò»áµ¼ÖÂÆµ·±µØ´¥·¢gc²Ù×÷£¬Ò²Ó°ÏìKafkaµÄÍÌÍÂÁ¿¡£ÁíÍâ£¬ĞèÒª±ÜÃâCMS GC¹ı³ÌÖĞµÄ·¢Éúpromotion failureºÍconcurrent failureÎÊÌâ¡£CMSInitiatingOccupancyFraction=70¿ÉÒÔÔ¤·Àconcurrent failureÎÊÌâ£¬ÌáÇ°³ö·¢Major GC¡£
-&#160; &#160; &#160; &#160;Kafka JVM²ÎÊı¿ÉÒÔÖ±½ÓĞŞ¸ÄÆô¶¯½Å±¾bin/kafka-server-start.sh ÖĞµÄ±äÁ¿Öµ¡£ÏÂÃæÊÇÒ»Ğ©»ù±¾²ÎÊı£¬Ò²¿ÉÒÔ¸ù¾İÊµ¼ÊµÄgc×´¿öºÍµ÷ÊÔGCĞèÒªÔö¼ÓÒ»Ğ©Ïà¹ØµÄ²ÎÊı¡£
+&#160; &#160; &#160; &#160;å¦‚æœä½¿ç”¨çš„CMS GCç®—æ³•ï¼Œå»ºè®®JVM Heapä¸è¦å¤ªå¤§ï¼Œåœ¨4GBä»¥å†…å°±å¯ä»¥ã€‚JVMå¤ªå¤§ï¼Œå¯¼è‡´Major GCæˆ–è€…Full GCäº§ç”Ÿçš„â€œstop the worldâ€æ—¶é—´è¿‡é•¿ï¼Œå¯¼è‡´brokerå’Œzkä¹‹é—´çš„sessionè¶…æ—¶ï¼Œæ¯”å¦‚é‡ç°é€‰ä¸¾controllerèŠ‚ç‚¹å’Œæå‡follow replicaä¸ºleader replicaã€‚
+&#160; &#160; &#160; &#160;JVMä¹Ÿä¸èƒ½è¿‡å°ï¼Œå¦åˆ™ä¼šå¯¼è‡´é¢‘ç¹åœ°è§¦å‘gcæ“ä½œï¼Œä¹Ÿå½±å“Kafkaçš„ååé‡ã€‚å¦å¤–ï¼Œéœ€è¦é¿å…CMS GCè¿‡ç¨‹ä¸­çš„å‘ç”Ÿpromotion failureå’Œconcurrent failureé—®é¢˜ã€‚CMSInitiatingOccupancyFraction=70å¯ä»¥é¢„é˜²concurrent failureé—®é¢˜ï¼Œæå‰å‡ºå‘Major GCã€‚
+&#160; &#160; &#160; &#160;Kafka JVMå‚æ•°å¯ä»¥ç›´æ¥ä¿®æ”¹å¯åŠ¨è„šæœ¬bin/kafka-server-start.sh ä¸­çš„å˜é‡å€¼ã€‚ä¸‹é¢æ˜¯ä¸€äº›åŸºæœ¬å‚æ•°ï¼Œä¹Ÿå¯ä»¥æ ¹æ®å®é™…çš„gcçŠ¶å†µå’Œè°ƒè¯•GCéœ€è¦å¢åŠ ä¸€äº›ç›¸å…³çš„å‚æ•°ã€‚
 
 			export KAFKA_HEAP_OPTS="-Xmx4G -Xms4G -Xmn2G -XX:PermSize=64m -XX:MaxPermSize=128m  -XX:SurvivorRatio=6  -XX:CMSInitiatingOccupancyFraction=70 -XX:+UseCMSInitiatingOccupancyOnly"
 			
-&#160; &#160; &#160; &#160;ĞèÒª¹Ø×¢gcÈÕÖ¾ÖĞµÄYGCÊ±¼äÒÔ¼°CMS GCÀïÃæµÄCMS-initial-markºÍCMS-remarkÁ½¸ö½×¶ÎµÄÊ±¼ä£¬ÕâĞ©GC¹ı³ÌÊÇ¡°stop the world¡±·½Ê½Íê³ÉµÄ¡£
+&#160; &#160; &#160; &#160;éœ€è¦å…³æ³¨gcæ—¥å¿—ä¸­çš„YGCæ—¶é—´ä»¥åŠCMS GCé‡Œé¢çš„CMS-initial-markå’ŒCMS-remarkä¸¤ä¸ªé˜¶æ®µçš„æ—¶é—´ï¼Œè¿™äº›GCè¿‡ç¨‹æ˜¯â€œstop the worldâ€æ–¹å¼å®Œæˆçš„ã€‚
 
-####2.2 ´ò¿ªJMX¶Ë¿Ú
+####2.2 æ‰“å¼€JMXç«¯å£
 
-&#160; &#160; &#160; &#160;Ö÷ÒªÊÇÎªÁËÍ¨¹ıJMX¶Ë¿Ú¼à¿ØKafka BrokerĞÅÏ¢¡£¿ÉÒÔÔÚbin/kafka-server-start.shÖĞ´ò¿ªJMX¶Ë¿Ú±äÁ¿¡£
+&#160; &#160; &#160; &#160;ä¸»è¦æ˜¯ä¸ºäº†é€šè¿‡JMXç«¯å£ç›‘æ§Kafka Brokerä¿¡æ¯ã€‚å¯ä»¥åœ¨bin/kafka-server-start.shä¸­æ‰“å¼€JMXç«¯å£å˜é‡ã€‚
 
 		export JMX_PORT=9999
 		
-####2.3 µ÷Õûlog4jµÄÈÕÖ¾¼¶±ğ
+####2.3 è°ƒæ•´log4jçš„æ—¥å¿—çº§åˆ«
 
-&#160; &#160; &#160; &#160;Èç¹û¼¯ÈºÖĞtopicºÍpartitionÊıÁ¿½Ï´óÊ±£¬ÒòÎªlog4jµÄÈÕÖ¾¼¶±ğÌ«µÍ£¬µ¼ÖÂ½ø³Ì³ÖĞøºÜ³¤µÄÊ±¼äÔÚ´òÓ¡ÈÕÖ¾¡£ÈÕÖ¾Á¿¾Ş´ó£¬µ¼ÖÂºÜ¶à¶îÍâµÄĞÔÄÜ¿ªÏú¡£ÌØ±ğÊÇcontollerÈÕÖ¾¼¶±ğÎªtrace¼¶±ğ£¬Õâµã±È½Ï¿Ó¡£
+&#160; &#160; &#160; &#160;å¦‚æœé›†ç¾¤ä¸­topicå’Œpartitionæ•°é‡è¾ƒå¤§æ—¶ï¼Œå› ä¸ºlog4jçš„æ—¥å¿—çº§åˆ«å¤ªä½ï¼Œå¯¼è‡´è¿›ç¨‹æŒç»­å¾ˆé•¿çš„æ—¶é—´åœ¨æ‰“å°æ—¥å¿—ã€‚æ—¥å¿—é‡å·¨å¤§ï¼Œå¯¼è‡´å¾ˆå¤šé¢å¤–çš„æ€§èƒ½å¼€é”€ã€‚ç‰¹åˆ«æ˜¯contolleræ—¥å¿—çº§åˆ«ä¸ºtraceçº§åˆ«ï¼Œè¿™ç‚¹æ¯”è¾ƒå‘ã€‚
 
-&#160; &#160; &#160; &#160;TipsÍ¨¹ıJMX¶Ë¿ÚÉèÖÃlog4jÈÕÖ¾¼¶±ğ£¬²»ÓÃÖØÆôbroker½Úµã
+&#160; &#160; &#160; &#160;Tipsé€šè¿‡JMXç«¯å£è®¾ç½®log4jæ—¥å¿—çº§åˆ«ï¼Œä¸ç”¨é‡å¯brokerèŠ‚ç‚¹
 
-		ÉèÖÃÈÕÖ¾¼¶±ğ£º
+		è®¾ç½®æ—¥å¿—çº§åˆ«ï¼š
 		java -jar cmdline-jmxclient-0.10.3.jar - localhost:9999 kafka:type=kafka.Log4jController setLogLevel=kafka.controller,INFO
 		java -jar cmdline-jmxclient-0.10.3.jar - localhost:9999 kafka:type=kafka.Log4jController setLogLevel=state.change.logger,INFO
 
-		¼ì²éÈÕÖ¾¼¶±ğ£º
+		æ£€æŸ¥æ—¥å¿—çº§åˆ«ï¼š
 		java -jar cmdline-jmxclient-0.10.3.jar - localhost:9999 kafka:type=kafka.Log4jController getLogLevel=kafka.controller
 		java -jar cmdline-jmxclient-0.10.3.jar - localhost:9999 kafka:type=kafka.Log4jController 	
