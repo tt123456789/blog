@@ -29,6 +29,7 @@ Author: allposs
 
 
 ###2. 源码包
+
 	[root@node1 ~]# wget http://apache.fayea.com/zookeeper/zookeeper-3.4.6/zookeeper-3.4.6.tar.gz
 	[root@node1 ~]# wget http://mirrors.cnnic.cn/apache/kafka/0.8.2.2/kafka_2.11-0.8.2.2.tgz
 
@@ -338,7 +339,7 @@ Author: allposs
 		/opt/kafka/bin/kafka-topics.sh --list --zookeeper 10.199.200.102:2181 
 		
 	2.创建TOPIC kafka-create-topic.sh
-		bin/kafka-topic.sh   --replica 2 --partition 8 --topic summer  --zookeeper 10.199.200.101:2181
+		kafka-topics.sh --create --topic summer --replication-factor 2 --partitions 8 --zookeeper 10.199.200.101:2181
 		创建名为test的topic， 8个分区分别存放数据，数据备份总共2份
 	
 	3.重新分配分区kafka-reassign-partitions.sh
