@@ -47,7 +47,7 @@ Author: allposs
 
 ##拓扑图##
 
-![](http://image.allposs.cn/20160519092940.png)
+![](http://images.allposs.com/20160519092940.png)
 
 
 ## 正文##
@@ -69,13 +69,13 @@ Author: allposs
 	10.199.200.100  engine.allposs.com
 
 
-![](http://image.allposs.cn/20160517221408.png)
-![](http://image.allposs.cn/20160517222848.png)
-![](http://image.allposs.cn/20160517222848.png)
-![](http://image.allposs.cn/20160517223335.png)
-![](http://image.allposs.cn/20160517223412.png)
-![](http://image.allposs.cn/20160517223455.png)
-![](http://image.allposs.cn/20160517223532.png)
+![](http://images.allposs.com/20160517221408.png)
+![](http://images.allposs.com/20160517222848.png)
+![](http://images.allposs.com/20160517222848.png)
+![](http://images.allposs.com/20160517223335.png)
+![](http://images.allposs.com/20160517223412.png)
+![](http://images.allposs.com/20160517223455.png)
+![](http://images.allposs.com/20160517223532.png)
 
 	[root@engine ~]# engine-setup
 	[ INFO  ] Stage: Initializing
@@ -209,7 +209,7 @@ Author: allposs
 
 安装完成
 
-![](http://image.allposs.cn/20160517224109.png)
+![](http://images.allposs.com/20160517224109.png)
 
 这个时候就可以通过浏览器访问
 
@@ -610,83 +610,83 @@ p6p2
 
 ####4.1 登陆
 浏览器输入：http://10.199.200.100/ovirt-engine/
-![](http://image.allposs.cn/20160518205844.png)
+![](http://images.allposs.com/20160518205844.png)
 
 进入管理门户
 
-![](http://image.allposs.cn/20160518205910.png)
+![](http://images.allposs.com/20160518205910.png)
 
 
 输入账号与密码
 
 
-![](http://image.allposs.cn/20160518210014.png)
+![](http://images.allposs.com/20160518210014.png)
 
 ####4.2 新建数据中心
 Engine默认会有一个初始化数据中心，你也可以不使用他
-![](http://image.allposs.cn/20160518211137.png)
+![](http://images.allposs.com/20160518211137.png)
 新建数据中心
-![](http://image.allposs.cn/20160518211137.png)
+![](http://images.allposs.com/20160518211137.png)
 根据需要创建数据中心，配额为审计模式，配额为资源的配额如CPU,内存，硬盘和网络。
-![](http://image.allposs.cn/20160518212414.png)
+![](http://images.allposs.com/20160518212414.png)
 点击确定后会下面界面，点击配置集群
-![](http://image.allposs.cn/20160518212507.png)
+![](http://images.allposs.com/20160518212507.png)
 
 ####4.3 配置集群
 #####4.3.1 常规项目
 根据自己需要配置
-![](http://image.allposs.cn/20160518212948.png)
+![](http://images.allposs.com/20160518212948.png)
 
 #####4.3.2 优化项目
 内存优化默认为无，CPU线程、内存 Balloon和KSM 控件默认都未启用，这里可以根据实际情况修改
-![](http://image.allposs.cn/20160518213203.png)
+![](http://images.allposs.com/20160518213203.png)
 
 ######4.3.3 Resilience 策略
 默认为迁移虚拟机
-![](http://image.allposs.cn/20160518213426.png)
+![](http://images.allposs.com/20160518213426.png)
 
 #####4.3.4 调度策略
 默认不修改，可根据自己需要修改
-![](http://image.allposs.cn/20160518213616.png)
+![](http://images.allposs.com/20160518213616.png)
 
 #####4.3.5 控制台
 默认不修改，可根据自己需要修改
-![](http://image.allposs.cn/20160518213714.png)
+![](http://images.allposs.com/20160518213714.png)
 
 #####4.3.6 隔离策略
 默认不修改，可根据自己需要修改
-![](http://image.allposs.cn/20160518213809.png)
+![](http://images.allposs.com/20160518213809.png)
 
 点击确定完成配置，会弹出下面界面
-![](http://image.allposs.cn/20160518214124.png)
+![](http://images.allposs.com/20160518214124.png)
 
 ####4.3 新建主机
 新建主机可以由上一节完成后配置，也可以手动新建。
 
 #####4.3.1 常规项目
 根据自己需要配置
-![](http://image.allposs.cn/20160518214802.png)
+![](http://images.allposs.com/20160518214802.png)
 
 #####4.3.2 电源管理项目
 默认不起用，这里点启动，然后点加号
-![](http://image.allposs.cn/20160518214905.png)
+![](http://images.allposs.com/20160518214905.png)
 
 下面配置根据自己服务器的情况设定然后确定
-![](http://image.allposs.cn/20160518215031.png)
+![](http://images.allposs.com/20160518215031.png)
 
 
 #####4.3.3 SPM项目
 根据自己需要配置，默认就行
 
-![](http://image.allposs.cn/20160518215118.png)
+![](http://images.allposs.com/20160518215118.png)
 #####4.3.4 控制台项目
 默认就行
 
-![](http://image.allposs.cn/20160518215218.png)
+![](http://images.allposs.com/20160518215218.png)
 #####4.3.5 网络供应商项目
 默认就行
 
-![](http://image.allposs.cn/20160518215254.png)
+![](http://images.allposs.com/20160518215254.png)
 
 以上安装完成后还需要配置网络，设立主机网络！这个后面会继续说明！
 

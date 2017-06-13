@@ -75,7 +75,7 @@ QQ邮箱不支持tls，使用QQ邮箱需要关闭tls_starttls，
 网易免费邮箱的ssl证书通不过验证，所以使用163邮箱时，只能关闭tls证书验证。
 
 测试
-![](http://image.allposs.cn/20150924001.png)
+![](http://images.allposs.com/20150924001.png)
 
 
 	[root@Moniter ~]# /usr/local/msmtp/bin/msmtp test@163.com
@@ -107,7 +107,7 @@ QQ邮箱不支持tls，使用QQ邮箱需要关闭tls_starttls，
 
 	[root@Moniter ~]# echo "<a href="http://so.21ops.com/cse/search?s=9181936462520079739&entry=1&q=helloworld" class="bdcs-inlinelink" target="_blank">helloworld</a>" | mutt -s "test" test@163.com
 
-![](http://image.allposs.cn/20150924003.png)
+![](http://images.allposs.com/20150924003.png)
 
 ###3. 配置zabbix
 ######3.1配置脚本文件
@@ -133,20 +133,20 @@ QQ邮箱不支持tls，使用QQ邮箱需要关闭tls_starttls，
 ######4.1 配置示警媒介
 管理—>示警媒介—>创建媒介类型：
 
-![](http://image.allposs.cn/20150924004.png)
+![](http://images.allposs.com/20150924004.png)
 
 ######4.2 配置报警邮箱
 
 管理—>用户—>Admin (Zabbix Administrator)—>示警媒介—>添加：
 
-![](http://image.allposs.cn/20150924006.png)
+![](http://images.allposs.com/20150924006.png)
 
-![](http://image.allposs.cn/20150924007.png)
+![](http://images.allposs.com/20150924007.png)
 ######4.3 配置示警动作
 
 组态—>动作—>创建动作：
 
-![](http://image.allposs.cn/20150924008.png)
+![](http://images.allposs.com/20150924008.png)
 
 
 写入：
@@ -178,9 +178,9 @@ QQ邮箱不支持tls，使用QQ邮箱需要关闭tls_starttls，
 
 并把“以启用”打勾。当然你也可以根据自己需要修改。
 
-![](http://image.allposs.cn/20150924009.png)
+![](http://images.allposs.com/20150924009.png)
 
-![](http://image.allposs.cn/20150924010.png)
+![](http://images.allposs.com/20150924010.png)
 
 以上算事整个个邮件告警安装完成，最后自己可以测试一下。
 

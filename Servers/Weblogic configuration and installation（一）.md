@@ -106,39 +106,39 @@ Domain and Server的关系
 	[root@node1 weblogic]# java -jar -d64 wls1036_generic.jar --mode=console
 
 &#160; &#160; &#160; &#160;回车后，进入欢迎界面，输入Next或者直接回车；
-![](http://image.allposs.cn/20160705133917.png)
+![](http://images.allposs.com/20160705133917.png)
 &#160; &#160; &#160; &#160;然后会出现安装路径，输入路径，回车；
-![](http://image.allposs.cn/20160705134139.png)	
+![](http://images.allposs.com/20160705134139.png)	
 &#160; &#160; &#160; &#160;确认选择新的路径，这里选择1，回车;
-![](http://image.allposs.cn/20160705134156.png)
+![](http://images.allposs.com/20160705134156.png)
 &#160; &#160; &#160; &#160;再次确认使用新路径，回车；
-![](http://image.allposs.cn/20160705134215.png)
+![](http://images.allposs.com/20160705134215.png)
 &#160; &#160; &#160; &#160;注册安全更新，有三项，其中第三项默认是Yes，因为我们不准备接收安全更新，所以我们输入3，回车；
-![](http://image.allposs.cn/20160705134401.png)
+![](http://images.allposs.com/20160705134401.png)
 &#160; &#160; &#160; &#160;确认选择，输入No；
-![](http://image.allposs.cn/20160705134415.png)
+![](http://images.allposs.com/20160705134415.png)
 &#160; &#160; &#160; &#160;提示是否绕过配置管理器启动过程并不接收安全更新通知，输入Yes；
-![](http://image.allposs.cn/20160705134804.png)
+![](http://images.allposs.com/20160705134804.png)
 &#160; &#160; &#160; &#160;回车后出现刚才的三项列表，此时第三项已经更改为No,输入Next，回车；
-![](http://image.allposs.cn/20160705134951.png)
+![](http://images.allposs.com/20160705134951.png)
 &#160; &#160; &#160; &#160;选择安装方式，这里选择自定义安装，2，回车；
-![](http://image.allposs.cn/20160705135204.png)
+![](http://images.allposs.com/20160705135204.png)
 &#160; &#160; &#160; &#160;选择2，回车；
-![](http://image.allposs.cn/20160705141149.png)	
+![](http://images.allposs.com/20160705141149.png)	
 &#160; &#160; &#160; &#160;默认，回车；
-![](http://image.allposs.cn/20160705141253.png)
+![](http://images.allposs.com/20160705141253.png)
 &#160; &#160; &#160; &#160;选择jdk，如果已经操作过前面安装jdk，并配置环境变量，这里显示的就是java_home目录，回车；
-![](http://image.allposs.cn/20160705141436.png)
+![](http://images.allposs.com/20160705141436.png)
 &#160; &#160; &#160; &#160;确认安装路径，如果没问题直接回车;
-![](http://image.allposs.cn/20160705142330.png)
+![](http://images.allposs.com/20160705142330.png)
 &#160; &#160; &#160; &#160;确认安装内容，如果没问题直接回车;
-![](http://image.allposs.cn/20160705142443.png)
+![](http://images.allposs.com/20160705142443.png)
 &#160; &#160; &#160; &#160;开始安装
 
 。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
 
 &#160; &#160; &#160; &#160;安装完成如下：
-![](http://image.allposs.cn/20160705142520.png)
+![](http://images.allposs.com/20160705142520.png)
 
 ### 5. 配置Domain
 
@@ -147,27 +147,27 @@ Domain and Server的关系
 
 
 &#160; &#160; &#160; &#160;欢迎界面，选择是新建domain还是扩展，因为第一次使用，输入1，即新建；
-![](http://image.allposs.cn/20160705150746.png)
+![](http://images.allposs.com/20160705150746.png)
 &#160; &#160; &#160; &#160;选择domain源，也是使用默认配置，即键入1回车；
-![](http://image.allposs.cn/20160705150937.png)
+![](http://images.allposs.com/20160705150937.png)
 &#160; &#160; &#160; &#160;应用程序模板选择，这里使用默认，即输入Next回车；
-![](http://image.allposs.cn/20160705151059.png)
+![](http://images.allposs.com/20160705151059.png)
 &#160; &#160; &#160; &#160;编辑domain信息，域名base_domain，默认，输入Next回车；
-![](http://image.allposs.cn/20160705151123.png)
+![](http://images.allposs.com/20160705151123.png)
 &#160; &#160; &#160; &#160;为domain选择目标或目录，默认，输入Next回车；
-![](http://image.allposs.cn/20160705151151.png)
+![](http://images.allposs.com/20160705151151.png)
 &#160; &#160; &#160; &#160;配置管理员用户名和口令，这里按需要输入选项，并根据提示操作，比较简单，配置好输入Next回车（注意这里的密码最好为8位）；
-![](http://image.allposs.cn/20160705151442.png)
-![](http://image.allposs.cn/20160705151808.png)
-![](http://image.allposs.cn/20160705151823.png)
-![](http://image.allposs.cn/20160705151845.png)
-![](http://image.allposs.cn/20160705151904.png)
+![](http://images.allposs.com/20160705151442.png)
+![](http://images.allposs.com/20160705151808.png)
+![](http://images.allposs.com/20160705151823.png)
+![](http://images.allposs.com/20160705151845.png)
+![](http://images.allposs.com/20160705151904.png)
 &#160; &#160; &#160; &#160;domain模式选择，我选择的生产模式，输入2回车；
-![](http://image.allposs.cn/20160705152021.png)
+![](http://images.allposs.com/20160705152021.png)
 &#160; &#160; &#160; &#160;选择JDK，使用我们之前安装的，输入1回车；
-![](http://image.allposs.cn/20160705152045.png)
+![](http://images.allposs.com/20160705152045.png)
 &#160; &#160; &#160; &#160;选择可选配置，我们暂不配置，输入Next回车；
-![](http://image.allposs.cn/20160705152113.png)
+![](http://images.allposs.com/20160705152113.png)
 &#160; &#160; &#160; &#160;开始执行创建，之后显示创建成功。
 
 &#160; &#160; &#160; &#160;这样domain创建完成，domain类似于Tomcat中的webapps，用于放web应用

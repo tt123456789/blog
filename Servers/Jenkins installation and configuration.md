@@ -72,22 +72,22 @@ Author: allposs
 访问http://10.199.200.101:8080/jenkins/login?from=%2Fjenkins%2F
 
 输入初始化密码
-![](http://image.allposs.cn/20170319131314.png)
+![](http://images.allposs.com/20170319131314.png)
 
 安装插件方法
-![](http://image.allposs.cn/20170319131339.png)
+![](http://images.allposs.com/20170319131339.png)
 
 安装插件
-![](http://image.allposs.cn/20170319131354.png)
+![](http://images.allposs.com/20170319131354.png)
 
 创建用户与密码
-![](http://image.allposs.cn/20170321103304.png)
+![](http://images.allposs.com/20170321103304.png)
 
 
-![](http://image.allposs.cn/20170321103340.png)
+![](http://images.allposs.com/20170321103340.png)
 
 安装完成
-![](http://image.allposs.cn/20170321105322.png)
+![](http://images.allposs.com/20170321105322.png)
 
 
 ## 结束

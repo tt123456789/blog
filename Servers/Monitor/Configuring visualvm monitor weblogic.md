@@ -103,19 +103,19 @@ Author: allposs
 ###5. 监控weblogic
 
 ####5.1 打开visualvm
-![](http://image.allposs.cn/20160708145406.png)
+![](http://images.allposs.com/20160708145406.png)
 ####5.2 添加远程主机
 
 远程-右键添加远程主机-输入远程主机IP地址
-![](http://image.allposs.cn/20160708145524.png)
+![](http://images.allposs.com/20160708145524.png)
 添加完成，这只有基本的监控功能
-![](http://image.allposs.cn/20160708145536.png)
+![](http://images.allposs.com/20160708145536.png)
 
 5.3 添加jmx连接
 远程主机名10.199.200.201-右键添加jmx连接-输入远程主机IP地址与jmx端口
-![](http://image.allposs.cn/20160708145637.png)
+![](http://images.allposs.com/20160708145637.png)
 
 5.5 完成
-![](http://image.allposs.cn/20160708145708.png)
+![](http://images.allposs.com/20160708145708.png)
 	
 ## 结束##

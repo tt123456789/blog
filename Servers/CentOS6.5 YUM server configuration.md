@@ -60,10 +60,10 @@ Author: allposs
 	
 	[root@NAS 6.5]# createrepo -p -d -o /NAS/http/YUM/CentOS/6.5/x86_64 /NAS/http/YUM/CentOS/6.5/x86_64
 	
-![](http://image.allposs.cn/20150911002.png)
+![](http://images.allposs.com/20150911002.png)
 
 
-![](http://image.allposs.cn/20150911001.png)
+![](http://images.allposs.com/20150911001.png)
 
 
 ######5. 安装apache######
@@ -106,7 +106,7 @@ Author: allposs
 下图是防火墙需要添加的内容
 
 
-![](http://image.allposs.cn/20150911003.png)
+![](http://images.allposs.com/20150911003.png)
 
 ###客户端配置###
 
@@ -124,7 +124,7 @@ Author: allposs
 	enabled=1
 	gpgcheck=1
 
-![](http://image.allposs.cn/20150911004.png)
+![](http://images.allposs.com/20150911004.png)
 ######2. 测试######
 
 清空缓存
@@ -138,7 +138,7 @@ Author: allposs
 
 
 
-![](http://image.allposs.cn/20150911005.png) 
+![](http://images.allposs.com/20150911005.png) 
 yum服务器安装成功。
 
 

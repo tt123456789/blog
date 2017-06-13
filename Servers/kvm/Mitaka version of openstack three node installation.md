@@ -26,7 +26,7 @@ Author: allposs
 
 ##拓扑图
 
-![](http://image.allposs.cn/20160617144444.png)
+![](http://images.allposs.com/20160617144444.png)
 ## 正文
 
 ###1. 准备工作

@@ -38,7 +38,7 @@ Author: allposs
 
 ##拓扑图##
 
-![](http://image.allposs.cn/20151231009.png)
+![](http://images.allposs.com/20151231009.png)
 
 ## 正文##
 ###nginx负载均衡种类###
@@ -78,7 +78,7 @@ Author: allposs
     }
 
 
-![](http://image.allposs.cn/20151231010.png)
+![](http://images.allposs.com/20151231010.png)
 &#160; &#160; &#160; &#160;node2和node3运行着相同的应用程序。nginx默认负载均衡是以轮询方式进行。所有的请求被代理到服务组myhtml，然后nginx负载均衡的分发请求。
 
 &#160; &#160; &#160; &#160;nginx反向代理实现包括下面这些负载均衡HTTP、HTTPS、FastCGI、uwsgi，SCGI和memcached。
@@ -97,7 +97,7 @@ Author: allposs
 
 
 
-![](http://image.allposs.cn/20151231014.png)
+![](http://images.allposs.com/20151231014.png)
 ####最少连接负载均衡####
 
 
@@ -109,7 +109,7 @@ Author: allposs
 
 
 
-![](http://image.allposs.cn/20151231015.png)
+![](http://images.allposs.com/20151231015.png)
 测试
 
 	[root@node1 ~]# curl 192.168.200.201
@@ -128,14 +128,14 @@ Author: allposs
 	}
 
 
-![](http://image.allposs.cn/20151231016.png)
+![](http://images.allposs.com/20151231016.png)
 测试
 
 
 	[root@node1 ~]# curl 192.168.200.201
 
 
-![](http://image.allposs.cn/20151231017.png)
+![](http://images.allposs.com/20151231017.png)
 ####加权负载均衡####
 &#160; &#160; &#160; &#160;可以使用权重来进一步控制影响nginx负载均衡算法。
 
@@ -149,7 +149,7 @@ Author: allposs
     	}
 
 
-![](http://image.allposs.cn/20151231018.png)
+![](http://images.allposs.com/20151231018.png)
 
 &#160; &#160; &#160; &#160;这种情况下，每4个新的请求将被分布如下：3请求将被引导到202，一个请求将去203
 

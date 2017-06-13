@@ -22,7 +22,7 @@ Tomcat服务器是由一系列可配置的组件构成的，其中核心组件�
 
 Tomcat的各组件是在server.xml（CATALINA_HOME\conf\server.xml）配置的
 
-![](http://image.allposs.cn/20160507001.png)
+![](http://images.allposs.com//20160507001.png)
 
 
 

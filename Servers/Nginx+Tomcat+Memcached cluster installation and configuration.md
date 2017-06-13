@@ -34,7 +34,7 @@ Author: allposs
 	https://code.google.com/archive/p/memcached-session-manager/downloads
 ##拓扑图##
 
-![](http://image.allposs.cn/20160506132217.png)
+![](http://images.allposs.com/20160506132217.png)
 
 ## 正文##
 
@@ -379,11 +379,11 @@ centos6
 
 启动日志如下：
 
-![](http://image.allposs.cn/20160506102337.png)
+![](http://images.allposs.com/20160506102337.png)
 
 通过浏览器http://10.199.200.202:8080/test.jsp访问
 
-![](http://image.allposs.cn/20160506103915.png)
+![](http://images.allposs.com/20160506103915.png)
 
 #####5.1.2重启node3并测试
 
@@ -391,20 +391,20 @@ centos6
 	[root@node3 bin]# ./catalina.sh start
 
 启动日志如下：
-![](http://image.allposs.cn/20160506104107.png)
+![](http://images.allposs.com/20160506104107.png)
 
 通过浏览器http://10.199.200.203:8080/test.jsp访问
 	
-![](http://image.allposs.cn/20160506104128.png)
+![](http://images.allposs.com/20160506104128.png)
 5.2通过nginx测试
 通过浏览器http://10.199.200.201/test.jsp访问
 
 第一次刷新
 
-![](http://image.allposs.cn/20160506104353.png)
+![](http://images.allposs.com/20160506104353.png)
 
 第二次刷新
 
-![](http://image.allposs.cn/20160506104417.png)
+![](http://images.allposs.com/20160506104417.png)
 
 ## 结束##

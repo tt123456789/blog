@@ -28,7 +28,7 @@ V1.0
 
 ##流程图
 
-![](http://image.allposs.cn/20160921133545.png)
+![](http://images.allposs.com/20160921133545.png)
 
 ##代码
 	python代码：

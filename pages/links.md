@@ -3,7 +3,7 @@ Date: 2016/5/6 16:48:59
 Update: 2016/5/6 16:49:02
 Comment: off
 
-![](http://image.allposs.cn/links.jpg)
+![](http://images.allposs.com/links.jpg)
 
 链接如下：
 

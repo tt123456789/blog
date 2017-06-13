@@ -26,7 +26,7 @@ Author: allposs
 ###2. 源码包###
 
 ##拓扑图##
-![](http://image.allposs.cn/20160120001.png)
+![](http://images.allposs.com/20160120001.png)
 
 
 ## 正文##

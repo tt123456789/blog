@@ -39,10 +39,10 @@ Author: allposs
 
 ##拓扑图
 Nginx 静态反向代理：
-![](http://image.allposs.cn/20151229001.png)
+![](http://images.allposs.com/20151229001.png)
 
 Nginx PHP反向代理：
-![](http://image.allposs.cn/20151229002.png)
+![](http://images.allposs.com/20151229002.png)
 ## 正文
 ###Nginx 静态反向代理
 

@@ -52,36 +52,36 @@ Author: allposs
 修改
 	FpingLocation=/usr/local/Fping/sbin/fping
 
-![](http://image.allposs.cn/20151231001.png)
+![](http://images.allposs.com/20151231001.png)
 
 ###5.添加zabbix模板###
 
 配置监控项ICMP_Loss
 
-![](http://image.allposs.cn/20151231002.png)
+![](http://images.allposs.com/20151231002.png)
 
 配置监控项ICMP_Ping
 
-![](http://image.allposs.cn/20151231003.png)
+![](http://images.allposs.com/20151231003.png)
 
 配置监控项ICMP_Response_Time
 
-![](http://image.allposs.cn/20151231004.png)
+![](http://images.allposs.com/20151231004.png)
 
 配置触发器ping失效
 
-![](http://image.allposs.cn/20151231005.png)
+![](http://images.allposs.com/20151231005.png)
 
 {Ping:icmpping.max(#3)}=0的意思是：在ping子集下的icmpping的最大值等于0
 
 
 配置触发器ping失效后平均值小于0.15
 
-![](http://image.allposs.cn/20151231006.png)
+![](http://images.allposs.com/20151231006.png)
 
 配置触发器Ping失效后最大时间为20
 
-![](http://image.allposs.cn/20151231007.png)
+![](http://images.allposs.com/20151231007.png)
 
 三者之间的依赖关系
 

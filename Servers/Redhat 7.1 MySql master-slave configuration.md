@@ -27,7 +27,7 @@ Author: allposs
 	[root@node1 ~]# wget http://10.199.200.15/source/mysql-5.6.29-linux-glibc2.5-x86_64.tar.gz
 	[root@node2 ~]# wget http://10.199.200.15/source/mysql-5.6.29-linux-glibc2.5-x86_64.tar.gz
 ##拓扑图##
-![](http://image.allposs.cn/20160302001.png)
+![](http://images.allposs.com/20160302001.png)
 
 ## 正文##
 ###1.node1配置###
@@ -271,7 +271,7 @@ Author: allposs
 	[root@node1 ~]# netstat -tlnp | grep mysql
 
 
-![](http://image.allposs.cn/20160302002.png)
+![](http://images.allposs.com/20160302002.png)
 ####3.配置主从关系####
 #####3.1创建主从用户#####
 
@@ -285,11 +285,11 @@ Author: allposs
 	mysql> show master status;
 
 
-![](http://image.allposs.cn/20160302003.png)
+![](http://images.allposs.com/20160302003.png)
 #####3.3查看二进制日志#####
 
 	mysql> show binlog events in 'master-bin.000004'\G
-![](http://image.allposs.cn/20160302005.png)
+![](http://images.allposs.com/20160302005.png)
 ###配置node2###
 ####1.node2配置####
 ####1.1创建data分区####
@@ -537,19 +537,19 @@ Author: allposs
 	mysql> show slave status\G
 	#查看从服务器信息
 
-![](http://image.allposs.cn/20160302006.png)
+![](http://images.allposs.com/20160302006.png)
 
 	mysql> start slave;
 	#启动从服务器
 	mysql> show slave status\G
 
-![](http://image.allposs.cn/20160302007.png)
+![](http://images.allposs.com/20160302007.png)
 
 	mysql> show global variables like 'read_only';
 	#查看从服务是否可读写
 	mysql> quit
 
-![](http://image.allposs.cn/20160302008.png)
+![](http://images.allposs.com/20160302008.png)
 #####3.2配置从服务器为只读#####
 
 	[root@node2 ~]# vim /etc/my.cnf
@@ -559,7 +559,7 @@ Author: allposs
 	[root@node2 ~]# mysql
 	mysql> show global variables like 'read_only';
 	mysql> quit
-![](http://image.allposs.cn/20160302009.png)
+![](http://images.allposs.com/20160302009.png)
 
 ###3.测试###
 在主服务器上创建数据库，然后再从服务器上看看是否存在。
