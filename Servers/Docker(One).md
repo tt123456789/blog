@@ -10,14 +10,14 @@ Author: Temp
 
 ##简介
 
-&#160; &#160; &#160; &#160;Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。
-&#160; &#160; &#160; &#160;Docker 使用客户端-服务器 (C/S) 架构模式，使用远程API来管理和创建Docker容器。Docker 容器通过 Docker 镜像来创建。容器与镜像的关系类似于面向对象编程中的对象与类。
+&#160; &#160; &#160; &#160; Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。容器是完全使用沙箱机制，相互之间不会有任何接口。
+&#160; &#160; &#160; &#160; Docker 使用客户端-服务器 (C/S) 架构模式，使用远程API来管理和创建Docker容器。Docker 容器通过 Docker 镜像来创建。容器与镜像的关系类似于面向对象编程中的对象与类。
 
 ##说明
 
-&#160; &#160; &#160; &#160;这篇文章是我根据自己学习与实践产生问题所写，有些内容参考的是网上资源并实践正确后摘抄下来的。
+&#160; &#160; &#160; &#160; 这篇文章是我根据自己学习与实践产生问题所写，有些内容参考的是网上资源并实践正确后摘抄下来的。
 
-		
+​		
 
 ##环境
 
@@ -28,15 +28,15 @@ Author: Temp
 + 系统版本：CentOS7 1611
 
 ##软件包
-	
-	
+
+​	
 
 ##安装配置
 ###1. Docker安装
 ####1.1 CentOS Yum安装
 
 	# yum install -y docker
-	
+
 ####2.2 修改yum源安装
 
 	# vim /etc/yum.repos.d/docker.repo
@@ -58,12 +58,12 @@ Author: Temp
 ##基础操作
 
 ###1. 镜像操作
-	
+
 1.1 修改镜像默认源
 
 	# vim /etc/sysconfig/docker
 		增加：ADD_REGISTRY='--add-registry hub.c.163.com'
-		
+
 1.2 Pull镜像
 
 	# docker pull public/centos
@@ -78,9 +78,9 @@ Author: Temp
 		--automated=true|false			仅显示自动创建的镜像，默认为否						# docker search --automated centos*
 		--no-trunc=true|false			输出信息不截断显示，默认否							# docker search --no-trunc centos*
 		-s,--stars=X					仅显示评价为指定星级以上的镜像，默认为0				# docker search -s 3 centos*
-	
+
 1.4 查看镜像信息
-	
+​	
 	# docker images
 	参数images子参数：
 		-a,-all=true|false				 列出所有的镜像文件（包括临时文件）,默认为否		# docker images --all=true	
@@ -92,7 +92,7 @@ Author: Temp
 	# docker tag hub.c.163.com/public/centos mycentos
 
 1.6 查看镜像详细信息
-	
+​	
 	# docker inspect mycentos
 
 1.7 查看镜像历史
@@ -102,37 +102,37 @@ Author: Temp
 1.8 删除镜像
 
 	使用标签删除镜像
-	
+
 		# docker rmi mycentos
-	
+
 		当多个镜像标签时,删除其中一个标签时，并不影响镜像本身，但是删除最好一个标签时会删除镜像本身。
-	
+
 	使用ID删除镜像
-	
+
 		# docker rmi 997f0ed97903
-		
+
 		当镜像存在标签时，使用ID删除镜像会先删除标签，然后再删除镜像本身，注意有容器依赖这个镜像时是无法删除的。
 
 1.9	导出与导入镜像
-	
+​	
 	# docker save -o blog.tar blog:0.1
 	# docker load --input blog.tar
-	
+
 ###2. 容器操作
 2.1 创建容器
 
 	# docker create -it blog:0.1
 	使用create创建的容器默认是停止的
-	
+
 create命令与容器运行模式相关的选项
-![](http://image.allposs.com/20170605133917.png)
+![](http://images.allposs.com/20170605133917.png)
 
 create命令与容器运行环境和配置相关的选项
-![](http://image.allposs.com/20170605133918.png)
+![](http://images.allposs.com/20170605133918.png)
 
 create命令与容器资源限制和安全保护相关的选项：
-![](http://image.allposs.com/20170605133919.png)
-![](http://image.allposs.com/20170605133920.png)
+![](http://images.allposs.com/20170605133919.png)
+![](http://images.allposs.com/20170605133920.png)
 
 	其他比较重要的选项：
 		-l,--label=[]					以键值对方式指定容器的标签信息
@@ -191,19 +191,19 @@ create命令与容器资源限制和安全保护相关的选项：
 		--restart="no"             		指定容器停止后的重启策略:  no：容器退出时不重启，on-failure：容器故障退出（返回值非零）时重启，always：容器退出时总是重启    
 		--rm=false                 		指定容器停止后自动删除容器(不支持以docker run -d启动的容器)    
 		--sig-proxy=true           		设置由代理接受并处理信号，但是SIGCHLD、SIGSTOP和SIGKILL不能被代理   	
-	
-	
-		
+
+
+​		
 2.5 获取容器输出信息
 
 	# docker logs 918b5e6f768a
-	
+
 2.6 终止容器
 
 	# docker stop 918b5e6f768a
-	
+
 2.7 进入容器
-	
+​	
 
 	# docker attach happy_heyrovsky
 	参数attach子参数：
@@ -217,16 +217,16 @@ create命令与容器资源限制和安全保护相关的选项：
 		--privileged=true|false			是否给执行命令以最高权限，默认为false
 		-t,--tty=true|false				分配为终端，默认为false
 		-u,--user=""					执行命令的用户名和ID
-		
+
 2.8 删除容器
-	
+​	
 	# docker stop 3b12dcc7ad
 	# docker rm 3b12dcc7adab
 	参数rm子参数：
 		-f,--force=false				是否强制终止并删除一个运行中的容器
 		-l,--link=false					删除容器的连接，但保留容器
 		-v,--volumes=false				删除容器挂载的数据卷
-		
+
 2.9 导出与导入容器
 
 	# docker export -o test_centos.tar 918b5e6f768a
@@ -238,17 +238,17 @@ create命令与容器资源限制和安全保护相关的选项：
 	参数import子参数：
 		-c 								应用docker 指令创建镜像
 		-m 								提交时的说明文字
-		
-	
+
+
 ###3. docker数据管理
-	
+
 3.1 容器创建数据卷
 
 	# docker run -d -p 5000:5000 --name registry --privileged=true -v /opt/registry:/tmp/registry registry
 	# docker run -d -P  --name images --privileged=true -v /tmp/registry registry
-	
+
 3.2 数据卷容器
-	
+​	
 	# docker run -it -v /data --name data1 public/centos
 	# docker run -it --volumes-from data1 --name db1 public/centos
 	# docker run -it --volumes-from db1 --name db2 public/centos
@@ -308,20 +308,20 @@ create命令与容器资源限制和安全保护相关的选项：
 		[plain] view plaincopy 
 		FROM <image>:<tag>  
 	指定基础image为该image的一个tag版本。
-
+	
 	（2）MAINTAINER（用来指定镜像创建者信息）
 	构建指令，用于将image的制作者相关的信息写入到image中。当我们对该image执行docker inspect命令时，输出中有相应的字段记录该信息。
 	格式：
 		[plain] view plaincopy 
 		MAINTAINER <name>  
-
+	
 	（3）RUN（安装软件用）
 	构建指令，RUN可以运行任何被基础image支持的命令。如基础image选择了ubuntu，那么软件管理部分只能使用ubuntu的命令。
 	格式：
 		[plain] view plaincopy 
 		RUN <command> (the command is run in a shell - `/bin/sh -c`)  
 		RUN ["executable", "param1", "param2" ... ]  (exec form)  
-
+	
 	（4）CMD（设置container启动时执行的操作）
 	设置指令，用于container启动时指定的操作。该操作可以是执行自定义脚本，也可以是执行系统命令。该指令只能在文件中存在一次，如果有多个，则只执行最后一条。
 	格式：
@@ -332,7 +332,7 @@ create命令与容器资源限制和安全保护相关的选项：
 		[plain] view plaincopy 
 		CMD ["param1","param2"] (as default parameters to ENTRYPOINT)  
 	ENTRYPOINT指定的是一个可执行的脚本或者程序的路径，该指定的脚本或者程序将会以param1和param2作为参数执行。所以如果CMD指令使用上面的形式，那么Dockerfile中必须要有配套的ENTRYPOINT。
-
+	
 	（5）ENTRYPOINT（设置container启动时执行的操作）
 	设置指令，指定容器启动时执行的命令，可以多次设置，但是只有最后一个有效。
 	格式:
@@ -350,7 +350,7 @@ create命令与容器资源限制和安全保护相关的选项：
 		FROM ubuntu  
 		CMD ["-l"]  
 		ENTRYPOINT ["/usr/bin/ls"]  
-
+	
 	（6）USER（设置container容器的用户）
 	设置指令，设置启动容器的用户，默认是root用户。
 		[plain] view plaincopy 
@@ -359,20 +359,20 @@ create命令与容器资源限制和安全保护相关的选项：
 		USER daemon  
 	或  
 		ENTRYPOINT ["memcached", "-u", "daemon"]  
-
+	
 	（7）EXPOSE（指定容器需要映射到宿主机器的端口）
 	设置指令，该指令会将容器中的端口映射成宿主机器中的某个端口。当你需要访问容器的时候，可以不是用容器的IP地址而是使用宿主机器的IP地址和映射后的端口。要完成整个操作需要两个步骤，首先在Dockerfile使用EXPOSE设置需要映射的容器端口，然后在运行容器的时候指定-p选项加上EXPOSE设置的端口，这样EXPOSE设置的端口号会被随机映射成宿主机器中的一个端口号。也可以指定需要映射到宿主机器的那个端口，这时要确保宿主机器上的端口号没有被使用。EXPOSE指令可以一次设置多个端口号，相应的运行容器的时候，可以配套的多次使用-p选项。
 	格式:
 		[plain] view plaincopy 
 		EXPOSE <port> [<port>...]  
-
+	
 		[plain] view plaincopy 
 		# 映射一个端口  
 		EXPOSE port1  
 	
 	# 相应的运行容器使用的命令  
 	docker run -p port1 image  
-
+	
 	# 映射多个端口  
 	EXPOSE port1 port2 port3  
 	# 相应的运行容器使用的命令  
@@ -380,32 +380,32 @@ create命令与容器资源限制和安全保护相关的选项：
 	# 还可以指定需要映射到宿主机器上的某个端口号  
 	docker run -p host_port1:port1 -p host_port2:port2 -p host_port3:port3 image  
 	端口映射是docker比较重要的一个功能，原因在于我们每次运行容器的时候容器的IP地址不能指定而是在桥接网卡的地址范围内随机生成的。宿主机器的IP地址是固定的，我们可以将容器的端口的映射到宿主机器上的一个端口，免去每次访问容器中的某个服务时都要查看容器的IP的地址。对于一个运行的容器，可以使用docker port加上容器中需要映射的端口和容器的ID来查看该端口号在宿主机器上的映射端口。
-
+	
 	（8）ENV（用于设置环境变量）
 	构建指令，在image中设置一个环境变量。
 	格式:
 		[plain] view plaincopy 
 		ENV <key> <value>  
-
+	
 	设置了后，后续的RUN命令都可以使用，container启动后，可以通过docker inspect查看这个环境变量，也可以通过在docker run --env key=value时设置或修改环境变量。
 	假如你安装了JAVA程序，需要设置JAVA_HOME，那么可以在Dockerfile中这样写：
 		ENV JAVA_HOME /path/to/java/dirent
-
+	
 	（9）ADD（从src复制文件到container的dest路径）
 	构建指令，所有拷贝到container中的文件和文件夹权限为0755，uid和gid为0；如果是一个目录，那么会将该目录下的所有文件添加到container中，不包括目录；如果文件是可识别的压缩格式，则docker会帮忙解压缩（注意压缩格式）；如果<src>是文件且<dest>中不使用斜杠结束，则会将<dest>视为文件，<src>的内容会写入<dest>；如果<src>是文件且<dest>中使用斜杠结束，则会<src>文件拷贝到<dest>目录下。
 	格式:
 		[plain] view plaincopy 
 		ADD <src> <dest>  
-
+	
 	<src> 是相对被构建的源目录的相对路径，可以是文件或目录的路径，也可以是一个远程的文件url;
 	<dest> 是container中的绝对路径
-
+	
 	（10）VOLUME（指定挂载点)）
 	设置指令，使容器中的一个目录具有持久化存储数据的功能，该目录可以被容器本身使用，也可以共享给其他容器使用。我们知道容器使用的是AUFS，这种文件系统不能持久化数据，当容器关闭后，所有的更改都会丢失。当容器中的应用有持久化数据的需求时可以在Dockerfile中使用该指令。
 	格式:
 		[plain] view plaincopy 
 		VOLUME ["<mountpoint>"]  
-
+	
 		[plain] view plaincopy 
 		FROM base  
 		VOLUME ["/tmp/data"]  
@@ -413,25 +413,25 @@ create命令与容器资源限制和安全保护相关的选项：
 		[plain] view plaincopy 
 		docker run -t -i -rm -volumes-from container1 image2 bash  
 	container1为第一个容器的ID，image2为第二个容器运行image的名字。
-
+	
 	（11）WORKDIR（切换目录）
 	设置指令，可以多次切换(相当于cd命令)，对RUN,CMD,ENTRYPOINT生效。
 	格式:
 		[plain] view plaincopy 
 		WORKDIR /path/to/workdir  
-
+	
 		[plain] view plaincopy 
 		# 在 /p1/p2 下执行 vim a.txt  
 		WORKDIR /p1 WORKDIR p2 RUN vim a.txt  
-
+	
 	（12）ONBUILD（在子镜像中执行）
 		[plain] view plaincopy 
 		ONBUILD <Dockerfile关键字>  
 	ONBUILD 指定的命令在构建镜像时并不执行，而是在它的子镜像中执行。
-	
+
 1.2.2 Nginx软件下载服务器
 
-	
+
 	# vim Dockerfile
 		# Pull base image  
 		FROM nginx
@@ -445,8 +445,8 @@ create命令与容器资源限制和安全保护相关的选项：
 		
 		#config nginx default
 		ADD default.conf /etc/nginx/conf.d/
-		
-		
+
+
 		# Expose ports.  
 		EXPOSE 80
 		
@@ -473,9 +473,9 @@ create命令与容器资源限制和安全保护相关的选项：
 	# docker build /root/soft/ -t nginxsoft:1.1
 
 
-	
+​	
 
-	
+
 ####2. 创建本地私有仓库
 
 2.1 使用容器创建本地私有仓库
@@ -491,7 +491,7 @@ create命令与容器资源限制和安全保护相关的选项：
 		增加：
 		OPTIONS='--insecure-registry 10.20.0.201:5000'    #CentOS 7系统
 		other_args='--insecure-registry 10.20.0.201:5000' #CentOS 6系统
-
+	
 	# vim /etc/sysconfig/docker
 		增加：ADD_REGISTRY='--add-registry 10.20.0.201:5000'
 		
@@ -516,9 +516,9 @@ create命令与容器资源限制和安全保护相关的选项：
 	# docker run --name cpuuse -d --cpuset-cpus=0,3   public/centos /bin/bash
 	
 	–cpu-period、–cpu-quota两个参数控制容器可以分配到的CPU时钟周期。–cpu-period是用来指定容器对CPU的使用要在多长时间内做一次重新分配，而–cpu-quota是用来指定在这个周期内，最多可以有多少时间用来跑这个容器。跟–cpu-shares不同的是这种配置是指定一个绝对值，而且没有弹性在里面，容器对CPU资源的使用绝对不会超过配置的值。
-
+	
 	cpu-period和cpu-quota的单位为微秒（μs）。cpu-period的最小值为1000微秒，最大值为1秒（10^6 μs），默认值为0.1秒（100000 μs）。cpu-quota的值默认为-1，表示不做控制。
-
+	
 	举个例子，如果容器进程需要每1秒使用单个CPU的0.2秒时间，可以将cpu-period设置为1000000（即1秒），cpu-quota设置为200000（0.2秒）。当然，在多核情况下，如果允许容器进程需要完全占用两个CPU，则可以将cpu-period设置为100000（即0.1秒），cpu-quota设置为200000（0.2秒）。
 	
 	参数
